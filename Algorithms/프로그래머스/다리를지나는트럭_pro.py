@@ -1,6 +1,6 @@
 # 프로그래머스 다리를 지나는 트럭
 # 22/5/22
-# 스택/큐
+# 스택/큐 
 
 from collections import deque
 
