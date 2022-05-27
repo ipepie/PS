@@ -1,5 +1,6 @@
 # 프로그래머스 소수 찾기
 # 22/5/19
+# 완전탐색 + 에라토스
 from itertools import permutations
 
 def solution(numbers):
