@@ -1,6 +1,8 @@
 # 백준 N과 M(1)
 # 22/5/30
 # 백트래킹
+
+# 순열로 풀긴했는데 정해가 아닌 것 같다
 from itertools import permutations
 n,m = map(int,input().split())
 
