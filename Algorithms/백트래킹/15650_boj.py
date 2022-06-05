@@ -11,3 +11,21 @@ li = list(combinations(arr,m))
 for i in li:
     print(*i, end=' ')
     print()
+
+'''
+백트래킹 사용방식
+n,m = list(map(int,input().split()))
+s = []
+def dfs(start):
+    if len(s)==m:
+        print(' '.join(map(str,s)))
+        return
+    
+    for i in range(start,n+1):
+        if i not in s:
+            s.append(i)
+            dfs(i+1)
+            s.pop()
+dfs(1)
+
+'''
