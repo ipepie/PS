@@ -8,7 +8,7 @@ indegree = [0] * (n+1)
 graph = [[] for _ in range(n+1)]
 for _ in range(m):
     a,b = map(int,input().split())
-    # 위상정렬은 DAG 방향 그래프. a에서 b로 이동(줄 세우기)
+    # 위상정렬은 DAG 사이클 없는 방향 그래프. a에서 b로 이동(줄 세우기)
     graph[a].append(b)
     # 진입차수를 1씩 증가
     indegree[b] += 1
