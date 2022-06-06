@@ -1,5 +1,5 @@
 # 프로그래머스 단어 변환
-# 22/6/5
+# 22/6/6
 # DFS/BFS
 
 from collections import deque
