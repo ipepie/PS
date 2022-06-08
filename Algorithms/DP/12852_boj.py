@@ -17,8 +17,9 @@ for i in range(2,n+1):
         d[i] = d[i//2] + 1
         ans[i] = i//2
 print(d[n])
-print(ans)
-
+# n은 ans 배열에 없기 때문에 먼저 출력
+print(n,end=' ')
+# 역추적
 m = n
 while ans[m] != 0:
     print(ans[m],end=' ')
