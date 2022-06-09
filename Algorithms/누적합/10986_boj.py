@@ -26,9 +26,9 @@ for i in arr:
 # 나머지가 0인 경우에는 구간합끼리 비교할 필요 없이 단독으로 m으로 나누어 떨어지기 때문에 
 # 나머지가 0인 경우도 각각 ans에 더해줘야 함
 ans = ps_m[0]
-
+# 조합 공식
 for i in range(m):
-    ans += (ps_m[i] * (ps_m[i]-1)) // 2;
+    ans += (ps_m[i] * (ps_m[i]-1)) // 2
 
 # 이렇게 풀면 n**2으로 시간초과
 # for start in range(1,len(arr)):
