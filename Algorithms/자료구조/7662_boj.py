@@ -7,7 +7,6 @@ input = sys.stdin.readline
 
 t = int(input())
 
-
 # 테스트 케이스만큼 반복한다.
 for _ in range(t):
     q = int(input())
@@ -51,4 +50,4 @@ for _ in range(t):
     if min_heap and max_heap:
         print(-max_heap[0][0],min_heap[0][0])
     else:
-        print('EMPTY')        
+        print('EMPTY')
